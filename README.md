@@ -13,7 +13,13 @@
 - 可以取消某一链接 （You can cancel a link）
 - 可以恢复下载一链接 （You can resume downloading a link）
 - 可以恢复全部下载 （You can resume all downloads）
+## 思路（idea）
+![image](https://github.com/liudiange/DGDownloadManager/blob/master/DGDownloadManager/DGDownloadManager/2.png)
 
+##### 解释（explain）：
+- 其中DGDownloadManager负责全局的管理，创建一个下载队列管理的数组，需要下载的添加进数组，下载完成的从数组中移除，并且发送通知下载已经完成。（DGDownload Manager is responsible for global management, creating an array of download queue management, adding downloads to the array, removing downloads from the array, and sending notifications that downloads have been completed）
+- DGDownloaditem是每一个下载的模型。它提供了下载的相关的属性以及下载进度的block。（DGDownloaditem is a model for each download. It provides the relevant attributes of the download and the block of the download progress）
+- DGHttpConfig存储发送通知的key（Storage key for sending notifications）。
 ## 安装 （install）
 - 需要将 DGDownloadManagers拖入工程中  （You need to drag DGDownloadManagers into the project）
 - cocoapod pod 'DGDownloadManager' ~>'0.0.1'
