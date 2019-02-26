@@ -15,7 +15,7 @@
 - 可以恢复全部下载 （You can resume all downloads）
 
 ## 安装 （install）
-- 需要将 DownloadManager拖入工程中  （You need to drag DGDownloadManager into the project）
+- 需要将 DGDownloadManagers拖入工程中  （You need to drag DGDownloadManagers into the project）
 - cocoapod pod 'DGDownloadManager' ~>'0.0.1'
 - 注意mac Os 暂时不支持cocoapod  （Note that macos does not currently support cocoapod）
 ## 使用 （use）
