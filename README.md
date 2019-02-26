@@ -1,5 +1,5 @@
 #DGDownloadManager
-![image](https://github.com/liudiange/downloadManager/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%206s%20-%202017-12-01%20at%2010.03.44.png)
+![image](https://github.com/liudiange/DGDownloadManager/blob/master/DGDownloadManager/DGDownloadManager/1.png)
 
 下载管理器，只要传递下载的url来进行下载，支持ios 和macos      （Download Manager, as long as the URL passed to download download, support ios and macos）
  
