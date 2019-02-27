@@ -7,12 +7,12 @@
 - 支持断点续传  （Support HTTP）
 - 支持最大的下载任务个数 （Support the largest number of download tasks）
 - 传递url进行下载  （Pass url to download）
-- 可以暂停全部  （You can pause all）
-- 可以暂停某一链接  （You can pause a link）
-- 可以取消全部  （You can cancel all）
-- 可以取消某一链接 （You can cancel a link）
-- 可以恢复下载一链接 （You can resume downloading a link）
-- 可以恢复全部下载 （You can resume all downloads）
+- 可以暂停全部  （ Pause all）
+- 可以暂停某一链接  （Pause a link）
+- 可以取消全部  （Cancel all）
+- 可以取消某一链接 （Cancel a link）
+- 可以恢复下载一链接 （Resume downloading a link）
+- 可以恢复全部下载 （Resume all downloads）
 ## 思路（idea）
 ![image](https://github.com/liudiange/DGDownloadManager/blob/master/DGDownloadManager/DGDownloadManager/2.png)
 
@@ -21,7 +21,7 @@
 - DGDownloaditem是每一个下载的模型。它提供了下载的相关的属性以及下载进度的block。（DGDownloaditem is a model for each download. It provides the relevant attributes of the download and the block of the download progress）
 - DGHttpConfig存储发送通知的key（Storage key for sending notifications）。
 ## 安装 （install）
-- 需要将 DGDownloadManagers拖入工程中  （You need to drag DGDownloadManagers into the project）
+- 需要将 DGDownloadManagers拖入工程中  （need to drag DGDownloadManagers into the project）
 - pod 'DGDownloadManager', ‘~>0.0.1'
 - 注意mac Os 暂时不支持cocoapod  （Note that macos does not currently support cocoapod）
 ## 使用 （use）
@@ -126,8 +126,8 @@
 
 
 ## 期待(hope)
-- 有什么bug或者我不满足的需求，欢迎 Issues我(There are any bugs or I do not meet the demand, welcome to Issues I)
-- 请大神给我指正和建议，我将不盛荣幸。(Please God give me advice and suggestions, I will not be honored)
+- 有什么bug或者我不满足的需求，欢迎 Issues我(There are any bugs or not satisfied, welcome to issues me)
+- 请大神给我指正或者建议，我将不胜感激。(Please give me advice or suggestions, I will be honored)
 
  
 
