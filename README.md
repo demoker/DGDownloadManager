@@ -22,7 +22,7 @@
 - DGHttpConfig存储发送通知的key（Storage key for sending notifications）。
 ## 安装 （install）
 - 需要将 DGDownloadManagers拖入工程中  （You need to drag DGDownloadManagers into the project）
-- cocoapod pod 'DGDownloadManager' ~>'0.0.1'
+- pod 'DGDownloadManager', ‘~>0.0.1'
 - 注意mac Os 暂时不支持cocoapod  （Note that macos does not currently support cocoapod）
 ## 使用 （use）
 - 开始下载(单一) （Start downloading (single))
